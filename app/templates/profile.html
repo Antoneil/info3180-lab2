@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block main %}
+  <div class="profile-card">
+    <div class="profile-info">
+      <img src="{{ url_for('static', filename='profilepic.jpg') }}" alt="Profile Image" class="profile-pic">
+      <div class="text-info">
+        <h1>{{ "Antoneil Singh" }}</h1>
+        <p class="username">{{ "@singhalong" }}</p>
+        <p>{{ "Location: Jamaica" }}</p>
+        <p>Joined: {{ date_joined }}</p>
+
+      </div>
+    </div>
+    <p class="bio">{{ "Bio: Computer science student by day, Tiktok scroller by night.  I navigate the world of algorithms and codes during the day, and when the night falls, you can find me scrolling through the latest TikTok trends. Always seeking the next challenge in technology and enjoying the lighter moments on social media. 💻🌙." }}</p>
+    <div class="profile-stats">
+      <p>{{ "Posts: 10" }}</p>
+      <p>{{ "Followers: 100" }}</p>
+      <p>{{ "Following: 50" }}</p>
+    </div>
+    <button class="follow-button">Follow</button>
+  </div>
+{% endblock %}
