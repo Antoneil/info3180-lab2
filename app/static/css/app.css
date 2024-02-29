@@ -1,11 +1,10 @@
-/* static/css/app.css */
 
 body {
     padding-top: 5rem;
 }
 
 .profile-card {
-  background: linear-gradient(to bottom, #3498db 50%, #ffffff 50%); /* Gradient background with blue and white */
+  background: linear-gradient(to bottom, #3498db 50%, #ffffff 50%);
   color: #000; 
   border-radius: 10px;
   padding: 0px;
@@ -44,8 +43,7 @@ body {
 }
 
 .follow-button {
-  background-color: #3498db; /* Customize with your preferred color */
-  color: #fff;
+  background-color: #3498db; 
   padding: 5px 10px;
   border: none;
   border-radius: 5px;
